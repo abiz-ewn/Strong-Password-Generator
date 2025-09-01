@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<title>Generate and Copy Strong Password with 12 Characters</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <h1>Generate a <br><span>Random Password</span></h1>
+    <div class="display">
+        <input type="text" id="password" placeholder="Password" readonly>
+        <img src="copy.png" onclick="copyPassword()" alt="Copy" title="Copy to clipboard">
+    </div>
+    <button onclick="generatePassword()">Generate Password</button>
+</div>
+</body>
+</html>
